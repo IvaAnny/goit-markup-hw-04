@@ -243,8 +243,9 @@ margin-top: 16px;}
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: #188CE8;
     justify-content: center;
+    display: flex;
+    align-items: center;
 }
 .team-section {padding-top: 94px;padding-bottom: 94px;}
     
