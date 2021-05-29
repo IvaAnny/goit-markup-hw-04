@@ -166,7 +166,7 @@ color: var(--adress-color);
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--adress-color);
     background-color: #2196F3;
      
     }
@@ -246,6 +246,12 @@ margin-top: 16px;}
     justify-content: center;
     display: flex;
     align-items: center;
+}
+.mini-link:hover .icon {
+    fill: var(--adress-color);
+}
+.mini-link:hover{
+    background-color: var(--logo-color);
 }
 .team-section {padding-top: 94px;padding-bottom: 94px;}
     
@@ -346,12 +352,16 @@ margin-top: 30px;}
 padding-bottom: 94px;}
 .clients{
     display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 .clients-list{border: 1px solid #AFB1B8;
-    box-sizing: border-box;
-    border-radius: 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
     width: 170px;
-    height: 92px;}
+    height: 92px;
+}
 
 .clients-list:not(:last-child){margin-right: 30px;}
 
@@ -361,8 +371,15 @@ padding-bottom: 94px;}
 /* footer */
 .footer-conteiner{
  align-items: center;
+ display: flex;
 }
-
+.menu-list-footer{margin-right: 70px;}
+h4{font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--adress-color);}
 
 .contact-details{ background: var(--title-sektion-color); 
 }
@@ -397,6 +414,22 @@ padding-top: 5px;
 padding-bottom: 5px;}
     .conakt-adres:not(:last-child) {margin-bottom: 9px;}
     .google-adres{margin-bottom: 9px;}
+
+    .mini-list-footer {display: flex;
+    justify-content: center;}
+    .mini-link-footer{width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+        margin-right: 10px;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.1);}
+
+        .icon-footer{width: 20px;
+        height: 20px;
+        }
 /* footer */
 
 
