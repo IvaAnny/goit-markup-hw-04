@@ -49,6 +49,11 @@ padding-left :0;
 .web-link {display: block;    
 }
 /* heder */
+.icon-heder{
+    fill: #AFB1B8;
+    margin-right: 10px;
+}
+.header-links:hover .icon-heder{ fill: #2196F3;}
 .header{
     border-bottom: 1px solid #ECECEC;
 
@@ -231,6 +236,7 @@ color: var(--title-color);
 .icon{
     width: 20px;
     height: 20px;
+    fill: #AFB1B8;
    
 }
 .mini-list{display: flex;
@@ -348,6 +354,10 @@ margin-top: 30px;}
 /*onteiner-work-examples*/
 
 /* clients-section*/
+.clients-icon{
+    fill: #AFB1B8;
+}
+
 .clients-section{padding-top: 94px;
 padding-bottom: 94px;}
 .clients{
@@ -355,6 +365,9 @@ padding-bottom: 94px;}
     justify-content: center;
     margin-top: 50px;
 }
+.clients-list:hover{ border-color: #2196F3;
+}
+.clients-list:hover .clients-icon{ fill: #2196F3;}
 .clients-list{border: 1px solid #AFB1B8;
    display: flex;
    justify-content: center;
@@ -429,7 +442,12 @@ padding-bottom: 5px;}
 
         .icon-footer{width: 20px;
         height: 20px;
+        fill: #FFFFFF;
         }
+        .mini-link-footer:hover,
+        .mini-link-footer:focus{background-color: #2196F3;}
+        
+
 /* footer */
 
 
