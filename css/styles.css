@@ -81,7 +81,7 @@ nav{display: flex;
     align-items: center;}
     .menu-list{ display: flex;
         align-items: center;}
-.lin {color: var(--logo-color);}
+
 .logo-web { font-family: var(--logo-font);
     font-weight: 700d;
     font-size: 26px;
@@ -117,6 +117,7 @@ nav{display: flex;
     letter-spacing: 0.02em;
 display: flex;
 align-items: center;}
+.lin {color: var(--logo-color);}
 
 /*title section*/
 .title-section{
@@ -499,6 +500,7 @@ padding-bottom: 60px;}
     border-radius: 4px;
     color: var(--title-color);
     background-color: #F5F4FA;
+    border: none;
 }
 
 .nav-button:focus,
