@@ -114,7 +114,9 @@ nav{display: flex;
 .header-links {font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+display: flex;
+align-items: center;}
 
 /*title section*/
 .title-section{
@@ -496,6 +498,7 @@ padding-bottom: 60px;}
     letter-spacing: 0.03em;
     border-radius: 4px;
     color: var(--title-color);
+    background-color: #F5F4FA;
 }
 
 .nav-button:focus,
